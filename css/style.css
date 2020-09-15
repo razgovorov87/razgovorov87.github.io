@@ -296,7 +296,6 @@ header.header-appear nav .logo .logo-dark, header.header-appear nav.header-dark 
 header.header-appear nav .logo .logo-dark, header.header-appear nav.header-light .logo .logo-dark {visibility: visible;  opacity: 1; width: auto; transition-duration:0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s;}
 header.header-appear nav .logo .logo-light, header.header-appear nav.header-light .logo .logo-light {visibility: hidden; opacity: 0; width: 0; transition-duration:0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s;}
 header a.logo {display: inline-block; vertical-align: middle;line-height: 1}
-header a.logo img {max-width: 150px;}
 
 /* nav top default */
 
@@ -352,10 +351,10 @@ header a.logo img {max-width: 150px;}
 
 .header-appear .navbar-top-default.navbar-gradient {
     background: #3264f5;
-    background: -moz-linear-gradient(left, #7004bc 2%, #3264f5 82%);
-    background: -webkit-linear-gradient(left, #7004bc 2%, #3264f5 82%);
-    background: linear-gradient(to right, #7004bc 2%, #3264f5 82%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3264f5', endColorstr='#7004bc',GradientType=1 );
+    background: -moz-linear-gradient(left, #5b37be 2%, #0091ff  82%);
+    background: -webkit-linear-gradient(left,#5b37be 2%, #0091ff  82%);
+    background: linear-gradient(to right, #5b37be 2%, #0091ff 82%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0091ff', endColorstr='#5b37be',GradientType=1 );
 }
 
 .navbar-top-default #agency{
@@ -3126,6 +3125,8 @@ input.inputerror, textarea.inputerror, select.inputerror {
 
 
 @media screen and (max-width:1366px){
+
+    header a.logo img {max-width: 150px;}
 
     .fullnav-toggler,.fullnav-close{
         left: 25px;

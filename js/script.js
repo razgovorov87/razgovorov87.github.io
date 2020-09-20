@@ -1,5 +1,13 @@
 $(window).on("load", function () {
 
+    const collapseBtn = document.querySelector('#collapseBtn');
+    const collapse = document.querySelector('#collapseOne');
+
+    collapseBtn.addEventListener('click', event => {
+        event.preventDefault()
+        collapse.classList.toggle('show')
+    })
+
     "use strict";
 
     /* ===================================
@@ -18,6 +26,8 @@ $(window).on("load", function () {
 });
 
 jQuery(function ($) {
+
+
 
 
     "use strict";

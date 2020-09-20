@@ -1299,6 +1299,7 @@ span.anchor-circle{
 .team-item{
     cursor: pointer;
     position: relative;
+    margin-right: 20px;
 }
 
 .team-item .team-image{

@@ -233,6 +233,25 @@ jQuery(function ($) {
         }
     });
 
+    $("#team-slider").owlCarousel({
+        items: 3,
+        loop: true,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 12000,
+        responsive: {
+            1280: {
+                items: 3,
+            },
+            600: {
+                items: 2,
+            },
+            320: {
+                items: 1,
+            },
+        }
+    });
+
 
     $('[data-position]').each(function () {
        var position = $(this).data('position').split(',')

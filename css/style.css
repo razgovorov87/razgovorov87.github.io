@@ -1390,6 +1390,15 @@ span.anchor-circle{
     color: #fff;
 }
 
+/* ===================================
+    Rector
+====================================== */
+
+#rector .container .title {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
 
 /* ===================================
     Cube Portfolio
@@ -1667,6 +1676,13 @@ span.anchor-circle{
 
 .partners-slider .logo-item{
     text-align: center;
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+.partners-slider .logo-item img{
+    max-height: 200px;
 }
 
 .map-area{
@@ -2792,6 +2808,19 @@ input.inputerror, textarea.inputerror, select.inputerror {
         -webkit-box-shadow: 0 0 0 60px rgba(240, 33, 182, 0.1);
         box-shadow: 0 0 0 20px rgba(240, 33, 182, 0.1);
     }
+}
+
+
+.hello-item .rector_image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.rector_image .name {
+    font-weight: 700;
+    margin-top: 20px;
 }
 
 /* ===================================

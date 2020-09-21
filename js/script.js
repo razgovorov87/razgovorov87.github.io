@@ -248,7 +248,7 @@ jQuery(function ($) {
         loop: true,
         nav: false,
         autoplay: true,
-        autoplayTimeout: 12000,
+        autoplayTimeout: 9000,
         responsive: {
             1280: {
                 items: 3,
@@ -260,6 +260,14 @@ jQuery(function ($) {
                 items: 1,
             },
         }
+    });
+
+    $("#hello").owlCarousel({
+        items: 1,
+        loop: true,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 15000,
     });
 
 

@@ -1678,11 +1678,12 @@ span.anchor-circle{
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 200px;
 }
 
 .partners-slider .logo-item img{
-    max-height: 200px;
+    max-height: 100px;
 }
 
 .map-area{

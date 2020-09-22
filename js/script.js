@@ -246,9 +246,6 @@ jQuery(function ($) {
     $("#team-slider").owlCarousel({
         items: 3,
         loop: true,
-        nav: false,
-        autoplay: true,
-        autoplayTimeout: 9000,
         responsive: {
             1280: {
                 items: 3,
@@ -284,7 +281,7 @@ jQuery(function ($) {
         autoplayHoverPause: true,
         slideBy: 1,
         loop: true,
-        margin: 30,
+        margin: 50,
         dots: false,
         nav: false,
         responsive: {

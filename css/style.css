@@ -1615,6 +1615,10 @@ span.anchor-circle{
     background-color: #fff;
 }
 
+.news-item .news-text-box .para{
+    font-size: 16px;
+}
+
 .news-item .date{
     font-weight: 400;
 }
@@ -1622,6 +1626,7 @@ span.anchor-circle{
 .news-item .news-title{
     margin: 10px 0;
     font-weight: 400;
+    font-size: 22px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;

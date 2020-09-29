@@ -246,6 +246,8 @@ jQuery(function ($) {
     $("#team-slider").owlCarousel({
         items: 3,
         loop: true,
+        autoplay: true,
+        autoplayTimeout: 10000,
         responsive: {
             1280: {
                 items: 3,

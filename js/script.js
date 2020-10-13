@@ -261,6 +261,25 @@ jQuery(function ($) {
         }
     });
 
+    $(".news-slider").owlCarousel({
+        items: 3,
+        margin: 30,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 10000,
+        responsive: {
+            1280: {
+                items: 3,
+            },
+            600: {
+                items: 2,
+            },
+            320: {
+                items: 1,
+            },
+        }
+    });
+
     $("#hello").owlCarousel({
         items: 1,
         loop: true,

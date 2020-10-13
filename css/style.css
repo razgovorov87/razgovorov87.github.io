@@ -1648,7 +1648,7 @@ span.anchor-circle{
 
 
 .news-item .author > img{
-    max-width: 50px;
+    max-width: 50px !important;
     border-radius: 50px;
     overflow: hidden;
     margin-right: 15px;
